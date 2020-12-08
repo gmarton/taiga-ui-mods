@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.detail .detail-ref,
+span[tg-bo-ref],
+section[tg-vote-button],
+span[ng-if*="vm.visible('ref')"],
+div .votes {
+    display: none;
+}
